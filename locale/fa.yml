@@ -1,0 +1,14 @@
+sijad-google-analytics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Google Analytics setting modal in extensions page.
+    google_analytics_settings:
+      set_up_analytics: <a>راه‌اندازی Analytics</a>
+      title: Google Analytics
+      tracking_code: کد رهیابی

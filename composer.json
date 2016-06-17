@@ -1,0 +1,36 @@
+{
+    "name": "sijad/flarum-ext-google-analytics",
+    "description": "Google Analytics for Flarum",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sajjad Hashemian",
+            "email": "wolaws@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sijad/flarum-ext-google-analytics/issues",
+        "source": "https://github.com/sijad/flarum-ext-google-analytics"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sijad\\Google\\Analytics\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Google Analytics",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#fff",
+                "backgroundSize": "contain",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
