@@ -40,6 +40,10 @@ class AddClientAssets
 
         if ($event->isForum() && $code = $this->settings->get('sijad-google-analytics.tracking_code')) {
             $event->view->addFootString($code);
+            $event->addAssets([
+                __DIR__.'/../../js/forum/dist/extension.js',
+            ]);
+            $event->addBootstrapper('sijad/google/analytics/main');
         }
     }
 
